@@ -1,4 +1,7 @@
-
+/*
+ * Example of binary search zero finding
+ * find the cubed root
+ */
 public class CubedRoot {
 	public static void main (String[] args){
 		int numEval = 18; // found using lg((b-a)*10^4) with b-a = 25; didn't subtract one because best estimate one behind

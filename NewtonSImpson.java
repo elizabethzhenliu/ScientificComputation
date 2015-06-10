@@ -1,4 +1,8 @@
-
+/*
+* Solving an integral (equal to a constant) for an unknown bound 
+* Uses Composite Simpson's rule to approximate for the integral and
+* Newton to find the zero
+*/
 public class NewtonSimpson {
 
 
@@ -9,7 +13,7 @@ public class NewtonSimpson {
 		// takes the value of pn and puts it through function
 		// returns value of the function
 		
-		/*!!!!!HOMEWORK 3 FUNCTION!!!!*/
+		//function
 		double myFunct = simpson(0, p, 20) - 0.45; 
 		
 		
@@ -19,7 +23,7 @@ public class NewtonSimpson {
 		
 	}
 	
-	public static double simpson(double a, double b, int n){ // method pointers suck in java
+	public static double simpson(double a, double b, int n){ 
 		double h = (b-a)/n;
 		double sum_1 = 0;
 		double sum_2 = 0;
@@ -42,10 +46,10 @@ public class NewtonSimpson {
 	public static double myFunctDeriv(double p){
 		// takes value of p returns derivative value
 		
-		/*!!!!!HOMEWORK 3 FUNCTION!!!!*/
+		//function 1
 		double myFunctDeriv = (1/(Math.sqrt(2*pi)))*Math.pow(e, -Math.pow(p, 2)/2);; 
 		
-		/*!!!!!EXTRA CREDIT FUNCTION!!!!!
+		/* another possible function
 		 * double myFunctDeriv= (-1000.0/(p*p))*(1-Math.pow((1+p),-360)) + (1000.0/p)*(360/Math.pow((1+p),361));
 		 */
 		

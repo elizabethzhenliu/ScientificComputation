@@ -1,4 +1,7 @@
-
+/*
+ * Uses Euler's method to solve ODE
+ * with given initial value
+ */
 public class EulerMethod {
 
 	public static double myDeriv(double function){

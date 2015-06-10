@@ -1,6 +1,7 @@
 /*
- * Elizabeth Liu zl2358
- * c) the answer is 2027 units at t = 0.2 seconds
+ * text here: http://iop.vast.ac.vn/~nvthanh/cours/numerical_methods/CH6_fb_p1.pdf
+ * modified Taylor methods to preserve high-order error bounds 
+ * but eliminates high-order partial derivative evaluations
  */
 public class RungeKutta {
 	
